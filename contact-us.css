@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.navbar{
+    padding: 20px 150px 20px 150px;
+    height: 40px;
+    background: #f3f3f3;
+}
+
+.navbar img, .navbar h1, .navbar .navbar-pages, .navbar.search{
+    display: inline;
+    float: left;
+}
+
+.navbar .logo{
+    width: 40px;
+}
+
+.navbar h1{
+    font-size: 18px;
+    margin: 10px 200px 0px 5px;
+    color: black;
+}
+
+.navbar .navbar-pages .page{
+    margin: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(71, 70, 70);
+}
+
+.navbar .navbar-pages{
+    margin-top: 10px ;
+} 
+
+.navbar .search{
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+
+.contact-us {
+    margin: 40px 0px 20px 150px;
+    /* float : left; */
+}
+
+.contact-us .form{
+    float: left;
+    /* margin: 30px; */
+}
+input{
+    margin-top: 30px ;
+    border: none;
+    border-bottom: 1px solid black ;
+    width: 70%;
+}
+
+#message{
+    margin-top: 60px ;
+}
+
+.contact-us img{
+    height: 320px;
+    margin-left: 60px;
+}
+
+.form button{
+    clear : both;
+    display: block;
+    margin-top: 40px;
+    height: 40px;
+    width: 120px;
+    border: 0px;
+    background-color: orangered;
+    color: white;
+}
+
+button:hover{
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+}
+/* ------------------------------------------------------- */
+.website-information{
+    margin: 40px 150px 0px 120px;
+
+}
+
+
+.info, .follow-us{
+    width: 125px;
+    /* border: 1px solid black; */
+    margin: 50px;
+    display: inline;
+    float: left;
+}
+
+.info h6{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.info p{
+    text-wrap: break-word;
+    font-size: 18px;
+    padding: 10px 0px;
+}
+
+.follow-us{
+    width: 200px;
+}
+
+.icons img{
+    margin: 20px 10px 20px 0px;
+    width: 30px;
+}
+
+.follow-us label{
+    font-size: px;
+}
+.follow-us input{
+    border: 1px solid black;
+    margin-top: 10px ;
+    margin-bottom: 7px;
+    height: 25px;
+    width: 200px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.follow-us button{
+    clear : both;
+    display: block;
+    height: 30px;
+    width: 120px;
+    border: 0px;
+    background-color: orangered;
+    color: white;
+}
+
+/* ------------------------------------------------------- */
+
+footer{
+    clear: both;
+    margin-top: 100px;
+    height: 60px;
+    background-color: #e6e6e6;
+    text-align: center;
+}
+
+footer p{
+    padding-top: 25px;
+}

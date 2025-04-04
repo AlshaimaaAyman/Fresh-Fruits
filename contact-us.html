@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="./contact-us.css">
+    </head>
+
+    <body>
+        <div class="navbar">
+            <a href="index.html">
+                <img class="logo" src="images/logo.png" alt="logo" title="logo">
+                <h1>FRUITS SHOP</h1>
+            </a>
+
+            <div class="navbar-pages">
+                <a class="page" href="index.html">Home</a>
+                <a class="page" href="fruits.html">Fruits</a>
+                <a class="page" href="services.html">Services</a>
+                <a class="page" href="contact-us.html">Contact us</a>
+            </div>
+             
+            <a href="#"><img class="search" src="images/search.png" alt="search-icon" title="search-icon"></a>
+        </div>
+
+        <div class="contact-us">
+            <h2>Contact Us</h2>
+            <form action="#" class="form" method="post">
+
+                <!-- <div class="name"> -->
+                    <!-- <label for="name">Name</label> -->
+                <input type="text" id="name" name="name" placeholder="Name" required minlength="3" 
+                maxlength="20">
+                <!-- </div> -->
+
+                <!-- <div class="phone-number"> -->
+                    <!-- <label for="phone-number">Phone Number</label> -->
+                <input type="tel" id="phone-number" name="phone-number" placeholder="Phone Number"
+                required minlength="11" maxlength="11">
+                <!-- </div> -->
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <input type="text" id="message" name="message" placeholder="Message" required>
+
+                <button type="submit">Send</button>
+            </form>
+            <img src="images/orange-dish.png" alt="orange-dish">
+        </div>
+<!-- ------------------------------------------------------------------------ -->
+        <div class="website-information">
+            <div class="info fruits-info">
+                <h6>Fruits</h6>
+                <p>randomised words which don't look even slightly believable. If you are going to use 
+                    a passage of Lorem Ipsum,</p>
+            </div>
+
+            <div class="info services-info">
+                <h6>Services</h6>
+                <p>randomised words which don't look even slightly believable. If you are going to use 
+                    a passage of Lorem Ipsum,</p>
+            </div>
+
+            <div class="info list-info">
+                <h6>List</h6>
+                <p>randomised words which don't look even slightly believable. If you are going to use 
+                    a passage of Lorem Ipsum,</p>
+            </div>
+
+            <div class="follow-us">
+                <h2>Follow Us</h2>
+                <div class="icons">
+                    <a href="#"><img src="images/fb.png" alt="facebook"></a>
+                    <a href="#"><img src="images/twitter.png" alt="twitter"></a>
+                    <a href="#"><img src="images/linkedin.png" alt="linkedin"></a>
+                    <a href="#"><img src="images/instagram.png" alt="instagram"></a>
+                </div>
+
+                <!-- <div class="subscribe">
+                    <label for="subscribe">Subscribe Now</label>
+                    <input type="text" id="subscribe">
+                    <button type="submit">Subscribe</button>
+                </div> -->
+
+                <form action="#" method="post">
+                    <div class="subscribe">
+                        <label for="subscribe">Subscribe Now</label>
+                        <input type="text" id="subscribe" name ='subscribe' required maxlength="255">
+                        <button type="submit">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+<!-- ------------------------------------------------------------------------ -->
+
+        <footer class="footer">
+            <p>Copyright &#169 All Rights Reserved</p>
+        </footer>
+        
+    </body>
+</html>
